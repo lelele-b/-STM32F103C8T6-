@@ -1,0 +1,10 @@
+# 统一使用 LF 换行，避免 Windows 上 core.autocrlf 破坏 Keil 工程与源文件
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.hex binary
+*.bin binary
+*.axf binary
+*.o binary
+*.png binary
+*.jpg binary

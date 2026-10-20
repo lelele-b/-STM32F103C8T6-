@@ -1,0 +1,37 @@
+# Keil 编译产物
+Objects/
+Listings/
+build.log
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.htm
+*.dep
+*.iex
+*.sct
+*.crf
+
+# Keil 用户与调试配置
+*.uvguix.*
+*.uvoptx
+*.scvd
+JLinkLog.txt
+
+# 本地工具与临时文件
+.workbuddy/
+__pycache__/
+*.pyc
+*.csv
+*.log
+代码审查报告.md
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
